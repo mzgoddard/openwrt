@@ -56,12 +56,12 @@
 					reg = <0x50000 0x1fb0000>;
 				};
 			};
-			spidev@1 {
+			tesseldev@1 {
 				#address-cells = <1>;
 				#size-cells = <1>;
-				compatible = "spidev";
+				compatible = "tesseldev";
 				reg = <1 0>;
-				linux,modalias = "spidev", "spidev";
+				linux,modalias = "tesseldev", "tesseldev";
 				spi-max-frequency = <10000000>;
 
 			};
